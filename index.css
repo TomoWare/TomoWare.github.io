@@ -2,7 +2,7 @@ body {
   width: 480px;
   margin: 24px auto 0;
   padding-bottom: 24px;
-  background-color: #a6a6a6;
+  background-image: url("background.png");
 }
 .title {
   margin: 16px 0 0;
