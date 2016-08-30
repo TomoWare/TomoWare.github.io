@@ -14,16 +14,18 @@
 <div class=title>
   <div class=progress-bar></div>
   <input class=url value=http://scratch.mit.edu/projects/>
-  <div class=progress-bar></div>
-  <input class=name value=ProjectNameHere id="name">
-  <input type="submit" onclick="getName()">
-  <p id="demo"></p>
 </div>
 
+<form id="form" onsubmit="return false;">
+    <input type="text" id="userInput" />
+    <input type="submit" onclick="othername();" />
+    <p id="demo"></p>
+</form>
+
 <script>
-  function getName() {
-    var nameApp = document.getElementById("name");
-    document.getElementById("demo").innerHTML = "Changed App Name to" + nameApp
-  }
+function othername() {
+  var AppName = document.getElementById("userInput").value;
+  document.getElementById("demo").innerHTML="App Name Has Been Changed Into" + AppName;
+}
 </script>
 
