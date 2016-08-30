@@ -13,12 +13,15 @@
 
 <div class=title>
   <div class=progress-bar></div>
-  <input class=url value=http://scratch.mit.edu/projects/>
+  <input class=url value="[Project ID here]">
+  <input class="submit" onclick="getID()">
 </div>
 
 <form id="form" onsubmit="return false;">
     <input type="text" id="userInput" />
     <input type="submit" onclick="othername();" />
+    <input readonly="" id="embed-code">
+    <p>copy+paste this code into the field below.</p>
     <p id="demo"></p>
 </form>
 
@@ -27,8 +30,11 @@ function othername() {
   var AppName = document.getElementById("userInput").value;
   document.getElementById("demo").innerHTML="App Name Has Been Changed Into: " + AppName;
 }
-</script>
 
-<p>
-  <input readonly="AppManifest:21837" id="embed-code">
-</p>
+function getID() {
+  var id = document.getElementById("userInput").value;
+  document.getElementById("demo").innerHTML="Your App ID has been modified!";
+}
+
+document.getElementById("embed-code").innerHTML="Hello World!"
+</script>
