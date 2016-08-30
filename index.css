@@ -3,6 +3,7 @@ body {
   margin: 24px auto 0;
   padding-bottom: 24px;
   background-image: url("TomoCorpsRE.png");
+  background-size: 100% 100%;
 }
 .title {
   margin: 16px 0 0;
