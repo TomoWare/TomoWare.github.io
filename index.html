@@ -7,9 +7,17 @@
     <h1>TomoWare</h1>
     <h2>A SB2 to App Converter</h2>
     <p>Copy and paste the project id on the url below!</p>
-    <form action="convertionVar()">
-      <input class="url" value="Project ID:" id="projID">
-      <input type="submit">
+    <form id="form" onsubmit="return false;">
+      <input   style=position:absolute;top:80%;left:5%;width:40%; type="text" id="projID">
+      <input   style=position:absolute;top:50%;left:5%;width:40%; type="submit"    onclick="getID()">
     </form>
+    
+    <script>
+    function getID()
+    {
+    var id = document.getElementById("projID");
+    alert(input);
+    }
+    </script>
   </body>
 </html>
