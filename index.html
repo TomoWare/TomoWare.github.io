@@ -6,7 +6,9 @@
   <body>
     <h1>Scratchapp</h1>
     <input class="url" value="http://scratch.mit.edu/projects/">
-    <input class="file" value="images/*">
-    <button type="button" onclick="build()">Build</button>
+    <form action="demo_form.asp">
+      <input type="file" name="appicon.png" accept="image/*">
+      <input type="submit">
+    </form>
   </body>
 </html>
