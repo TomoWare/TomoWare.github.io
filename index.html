@@ -13,12 +13,12 @@
 
 <div class=title>
   <div class=progress-bar></div>
-  <input class=url value="[Project ID here]">
-  <input class="submit" onclick="getID()">
+  <input class=url value="[Project ID here]" id="idGets">
+  <input type="submit" onclick="getID()">
 </div>
 
 <form id="form" onsubmit="return false;">
-    <input type="text" id="userInput" />
+    <input type="text" id="userInput" placeholder="Paste Your Project Id Here From The Project Url."/>
     <input type="submit" onclick="othername();" />
     <p id="demo"></p>
 </form>
@@ -44,7 +44,7 @@ function othername() {
 }
 
 function getID() {
-  var id = document.getElementById("userInput").value;
+  var id = document.getElementById("idGets").value;
   document.getElementById("demo").innerHTML="Your App ID has been modified!";
 }
 </script>
