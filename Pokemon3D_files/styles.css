@@ -1,0 +1,977 @@
+body {
+	background-color: #fafafa;
+	position: relative;
+	top: 60px;
+	
+}
+
+.wrap {
+	min-height: 100%;
+	/* equal to footer height */
+	margin-bottom: -142px; 
+}
+
+a {
+	text-decoration: none;
+}
+
+.divider {
+	height: 1px;
+	background: #e7e7e7;
+	margin: 5px;
+	border-width: 1px;
+	width: 100%;
+	position: relative;
+	right: 5px;
+}
+
+.header {
+
+	width: 100%;
+	text-align: center;
+	background-color: #044ed1;
+	position: fixed;
+	color: #ffffff;
+	height: 50px;
+	box-shadow: 0 -1px 3px #343434;
+	-moz-box-shadow: 0 -1px 3px #343434;
+	z-index: 1000;
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	   filter: alpha(opacity=95);
+	   -moz-opacity: 0.95;
+	   -khtml-opacity: 0.95;
+	   opacity: 0.95;
+}
+
+#title {
+	position: relative;
+	font-family: "Helvetica Neue";
+	top: 10px;
+	right: 25px;
+}
+
+#logo img {
+    	position: relative;
+    	z-index: 1;
+    	width: 44px;
+    	margin-top: 4px;
+    	margin-left: 10px;
+    	float: left;
+     	 	
+    }
+    
+#menu {
+	position: relative;
+	float: right;
+	bottom: 30px;
+	right: 10px;
+}
+
+img#news-photo {
+	width: 100%;
+	position: relative;
+	padding-bottom: 5px;
+}
+
+
+
+/*#install {
+	position: relative;
+	top: 500;
+	padding-right: 20%;
+	padding-left: 20%;
+}*/
+
+#install button.btn.btn-default.btn-lg {
+	position: relative;
+	left: 20px;
+	bottom: 26px;
+	
+}
+
+.app-click {
+	cursor: pointer;
+}
+
+.read {
+	position: relative;
+	margin-top: 20px;
+}
+
+/*button.btn.btn-default.btn-lg {
+	height: 45px;
+	width: 200px;
+	position: relative;
+	right: 30px;
+}*/
+
+h4#app {
+	color: #696969;
+	position: relative;
+	left: 20px;
+	bottom: 20px;
+}
+
+h5#author {
+	color: #acacac;
+	position: relative;
+	display: inline-block;
+	
+}
+
+h6#updated {
+	color: #acacac;
+	position: relative;
+
+}
+
+.app-info {
+	padding: 3% 3% 10%;
+}
+
+img#appicon {
+	width: 45%;
+	border-radius: 20%; 
+	float:left;
+}
+
+.box {
+	display: inline-block;
+	  width: 200px;
+	  height: 100px;
+	  margin: 1em;
+}
+
+
+#bl-main section. div.bl-box img {
+	border-radius: 20%;
+	width: 100px;
+}
+
+img.white {
+		border: 1px solid #ddd;
+}
+
+.bl-box img {
+	width: 100px;
+	border-radius: 20%;
+	
+}
+
+#announcement div.modal-dialog div.modal-content div.modal-header img.white {
+	width: 30%;
+	border-radius: 20%;
+}
+
+#announcement div.modal-dialog div.modal-content div.modal-header img.invisible {
+	width: 30%;
+	border-radius: 20%;
+}
+
+#announcement-button {
+	padding: 20px 20px 10px;
+}
+
+#bl-main section div.bl-box img.white {
+	border: 1px solid #ddd;
+}
+
+div.modal-body .screenshot img {
+	border-radius: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+
+
+div.container-apps img {
+
+	width: 30%;
+	border-radius: 20%;
+}
+
+
+
+
+.gba4ioskins {
+	display: inline-block;
+	height: 50px;
+	float: left;
+	width: 50px;
+}
+
+.gba4ioskinsTitle {
+	display: inline-block;
+	width: 100px;
+}
+
+#gba4ioskinstitle {
+	margin-right: 40px;
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: bold;
+	position: relative;
+	right: 30px;
+}
+
+.gba4ioskinsFollow {
+	display: inline-block;
+	clear: left;
+	overflow: auto;
+	padding: 8px;
+}
+
+#everything {
+	height: 50px;
+	width: 230px;
+	position: relative;
+	left: 38%;
+}
+
+.gba4ioskinscom {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.gba4ioskinscom:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+
+.mithical {
+	display: inline-block;
+	height: 50px;
+	float: left;
+	width: 50px;
+	
+}
+
+div.mithical img {
+	width: 50px;
+
+}
+
+div.gba4ioskins img {
+	width: 50px;
+}
+
+.mithicalTitle {
+	display: inline-block;
+	width: 100px;
+}
+
+#mithicalstitle {
+	margin-right: 40px;
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: bold;
+	position: relative;
+	right: 33px;
+}
+
+#mithicalstitle:hover {
+	text-decoration: underline;
+}
+
+.mithicalFollow {
+	display: inline-block;
+	clear: left;
+	overflow: auto;
+	padding: 8px;
+}
+
+#everything {
+	height: 50px;
+	width: 230px;
+	position: relative;
+	left: 38%;
+}
+
+.gba4ioskinscom {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.gba4ioskinscom:hover {
+	text-decoration: underline;
+}
+
+
+.jon {
+	color: #ffffff;
+	padding: 10px;
+}
+
+div.subscribe {
+	padding: 3px;
+	position: relative;
+	right: 30%;
+	left: 30%;
+}
+
+   
+span.author {
+	position: relative;
+	color: #333;
+	font-size: 15px;
+	left: 2px;
+	opacity: 0.53;
+}
+
+span.version {
+	color: #333;
+	position: relative;
+	font-size: 15px;
+	bottom: 15px;
+	left: 2px;
+	opacity: 0.53;
+}
+
+span.requirement {
+	color: #333;
+	position: relative;
+	font-size: 15px;
+	bottom: 30px;
+	left: 2px;
+	opacity: 0.53;
+}
+
+
+h4.modal-title {
+	height: 80px;
+	position: relative;
+	line-height: 25px;
+	font-size: 30px;
+	display: inline-block;
+}
+
+.app-name {
+	display: inline-block;
+	font: 25px "Helvetica Neue";
+	margin-left: 30px;
+	color: #555;
+	position: relative;
+	top: 25px;
+}
+
+.app-about {
+	font-size: 12px;
+	position: relative;
+	left: 2px;
+	opacity: 1;
+	bottom: 10px;
+}
+
+a.link-colors {
+	color: #044ed1;
+}
+
+h5.video-label {
+	font-size: 30px;
+}
+
+h5.video-labels {
+	font-size: 30px;
+}
+
+#disable {
+	background-color: #f0f0f0;
+	z-index: -1;
+	opacity: 0.45;
+	border-color: #bbbbbb;
+	border-style: solid;
+}
+
+#instructions {
+	font-size: 20px;
+}
+
+
+
+/**Makes the items appear in a line. But you can't define the width of an inline element.**/
+#footer-links {
+    display: inline-block;
+		position: relative;
+}
+
+#footer-links a{
+	color: #ffffff;
+	
+}
+
+#footer-links a:hover {
+	text-decoration: underline;
+}
+
+div.modal-body img.iphone-only {
+	width: 6%;
+	position: relative;
+	top: 24px;
+}
+
+div.modal-body img.ipad-only {
+	width: 12.2%;
+	position: relative;
+	top: 10px;
+}
+
+span.badge {
+	float: right;
+	background-color: #13b01a;
+	
+}
+
+span.badge-unavailable {
+	float: right;
+	background-color: #797979;
+	
+}
+
+span.overwrites {
+	float: right;
+	background-color: #044ed1;
+	
+	display: inline-block;
+			font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+
+	border-radius: 10px;
+		float: right;
+		font-size: 10px;
+		position: relative;
+		top: 70px;
+		text-transform: uppercase;
+	right: 10px;
+}
+
+
+.panel-title {
+	font-size: 1.3em;
+	text-align:  center;
+}
+
+span#date {
+	color: #929292;
+}
+
+
+ 
+    /* iPhone 5 and up */
+    
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 568px)
+{
+
+
+	.nav > li > a {
+	  position: relative;
+	  display: block;
+	  padding: 8px;
+		right: 20px;
+	}
+
+	.alert-dismissable,
+	.alert-dismissible {
+		margin-top: 10px;
+		margin-right: 8px;
+		margin-left: 8px;
+		font-size: 13px;
+		padding-right: 35px;
+		position: relative;
+	}
+	.alert-dismissable .close,
+	.alert-dismissible .close {
+	  position: relative;
+		right: -25px;
+	  color: inherit;
+		top: -5px;
+	}
+
+
+
+#help div.alert.alert-warning {
+	margin-top: 10px;
+	margin-right: 8px;
+	margin-left: 8px;
+	font-size: 13px;
+	padding-right: 35px;
+	position: relative;
+}
+
+#help div.alert.alert-danger {
+
+	margin-top: 35px;
+	margin-right: 1px;
+	font-size: 13px;
+	padding-right: 35px;
+	position: relative;
+	margin-left: 1px;
+}
+
+
+
+.bl-main > section.bl-expand {
+		width: 90%;
+		height: 90%;
+		top: 5%;
+		left: 5%;
+		border-radius: 5px;
+		margin-top: -12px;
+	}
+	
+	.container {
+		padding: 25px;
+		margin-right: 8px;
+		margin-top: 15px;
+		margin-left: 8px;
+		border-color: #c6c6c6;
+		-moz-box-shadow: 0 0 1px #bbbbbb;
+		box-shadow: 0 0 1px #bbbbbb;
+		background-color: #ffffff;
+		border-radius: 5px;
+	}
+	
+	.container-apps {
+		padding: 15px;
+		margin: 15px 8px;
+	}
+	
+	#home div.container {
+		padding: 8px;
+	}
+	
+
+	.read-text {
+		font-size: 16px;
+		position: relative;
+		
+	}
+	
+	/*button.btn.btn-default.btn-lg {
+		height: 40px;
+		width: 200px;
+		position: relative;
+		right: 30px;
+	}*/
+	
+	.panel-body {
+	  padding: 10px;
+		font-size: .9em;
+
+	}
+
+div#mithicalBanner.panel-body {
+	height: 140px;
+}
+
+div#operationidroidBanner.panel-body {
+	height: 160px;
+}
+
+div#gba4ioskinsBanner.panel-body {
+	height: 140px;
+}
+
+.gba4ioskinscom {
+	position: relative;
+	bottom: 15px;
+}
+.app-info {
+		padding: 3% 3% 20%;
+	}
+	
+	h4#app {
+		color: #696969;
+		position: relative;
+		left: 20px;
+		bottom: 18px;
+	}
+
+	#install button.btn.btn-default.btn-lg {
+		color: #044ed1;
+		background-color: #fff;
+		border-color: #ccc;
+		width: 120px;
+		
+	}
+	
+	.modal {
+	  position: fixed;
+		right: 0;
+		left: 0;
+	  z-index: 1050;
+	  display: none;
+	  overflow: hidden;
+	  -webkit-overflow-scrolling: touch;
+	  outline: 0;
+		top: 0;
+		bottom: 0;
+	}
+	
+	.modal-content {
+	  position: relative;
+	  background-color: #fff;
+	  -webkit-background-clip: padding-box;
+	          background-clip: padding-box;
+	  border: 1px solid #999;
+	  border: 1px solid rgba(0, 0, 0, .2);
+	  border-radius: 6px;
+	  outline: 0;
+	  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+	          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+
+	}
+	
+	.modal-body {
+	  position: relative;
+	  padding: 10px;
+	  overflow-y: scroll; /* has to be scroll, not auto */
+	   -webkit-overflow-scrolling: touch;
+		height: 270px;
+	}
+	
+	
+	.modal-footer {
+	  padding: 10px;
+	  border-top: 1px solid #e5e5e5;
+	}
+
+	div.container-apps img {
+		width: 30%;
+		border-radius: 20%;
+}
+
+	.list-group {
+		margin: -15px -17px;
+	}
+
+.badge {
+display: inline-block;
+min-width: 10px;
+	padding: 4px 7px;
+	font-weight: bold;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+background-color: #13b01a;
+border-radius: 10px;
+	float: right;
+	font-size: 8px;
+	text-transform: uppercase;
+}
+
+.badge-unavailable {
+display: inline-block;
+min-width: 10px;
+	padding: 4px 7px;
+	font-weight: bold;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+background-color: #777;
+border-radius: 10px;
+	float: right;
+	font-size: 8px;
+	text-transform: uppercase;
+}
+
+span.overwrites {
+	background-color: #044ed1;
+display: inline-block;
+min-width: 10px;
+	padding: 5px 7px 4px;
+	font-weight: bold;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: 10px;
+	float: right;
+	font-size: 8px;
+	position: fixed;
+	text-transform: uppercase;
+	top: 48px;
+}
+	
+	.app-name {
+		font: 20px "Helvetica Neue";
+		margin-left: 10px;
+		color: #555;
+		position: relative;
+		top: 20px;
+		
+	}
+	
+	.app-about {
+		position: relative;
+		bottom: 10px;
+		left: 2px;
+		opacity: 0.85;
+		font-size: 9px;
+	}
+
+
+
+span.author {
+	position: relative;
+	font-size: 10px;
+	left: 2px;
+	top: 5px;
+}
+
+span.version {
+	position: relative;
+	font-size: 10px;
+	left: 2px;
+	top: 1px;
+}
+
+span.requirement {
+	position: relative;
+	font-size: 10px;
+	left: 2px;
+	bottom: 3px;
+}
+
+
+h4.modal-title {
+	color: #555;
+	height: 45px;
+	position: relative;
+	line-height: 12px;
+	top: 8px;
+	font-size: 18px;
+}
+
+div.subscribe {
+	padding: 3px;
+	position: relative;
+	right: 30%;
+	left: 30%;
+}
+
+.modal-footer {
+  padding: 10px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.dl-horizontal dt {
+  float: left;
+  width: 160px;
+  overflow: hidden;
+  clear: left;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+	font-size: 11px;
+}
+.dl-horizontal dd {
+  margin-left: 180px;
+	font-size: 11px;
+}
+
+.jon {
+	font-size: 10px;
+	padding-top: 10px;
+	line-height: 13px;
+}
+
+img#youtube {
+	width: 10%;
+}
+
+#home div.container div.panel.panel-danger div.panel-body {
+	padding: 5px;
+}
+
+
+.panel-footer {
+	height: 25%;
+}
+
+#everything {
+	left: 10%;
+}
+
+#gba4ioskinsBanner {
+	
+	background-size: 400px;
+}
+
+.dl-horizontal dt {
+  float: left;
+  width: 80px;
+  overflow: hidden;
+  clear: left;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dl-horizontal dd {
+  margin-left: 100px;
+}
+
+p.app-description {
+	font-size: 12px;
+}
+
+h5.video-label {
+	font-size: 16px;
+}
+
+h5.video-labels {
+	font-size: 16px;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+	left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	bottom: -10px;
+}
+
+img#start3rs {
+	width: 30%;
+}
+
+div.modal-body img.iphone-only {
+	width: 9%;
+	position: relative;
+	top: 22px;
+}
+
+div.modal-body img.ipad-only {
+	width: 19%;
+	position: relative;
+
+}
+
+.panel-title {
+	font-size: 1em;
+	text-align:  center;
+}
+
+span#date {
+	color: #929292;
+}
+
+
+}
+
+
+	/* iPhone 6 Portrait */
+	@media only screen 
+    	and (min-device-width : 375px) 
+    	and (max-device-width : 667px) 
+   		and (orientation : portrait) 
+    	and (-webkit-min-device-pixel-ratio : 2)
+	{ 
+
+		.modal-body {
+			height: 350px;
+		}
+
+	}
+	
+	/* iPhone 6 Landscape */
+	
+	@media only screen 
+	    and (min-device-width : 375px) 
+	    and (max-device-width : 667px) 
+	    and (orientation : landscape) 
+	    and (-webkit-min-device-pixel-ratio : 2)
+	{ 
+	
+		.modal-body {
+			height: 170px;
+		}
+		
+		div.container-apps img {
+		
+			width: 15%;
+			border-radius: 20%;
+		}
+		
+	}
+	
+
+	/* iPhone 6 Plus Portrait */ 
+
+	@media only screen 
+    	and (min-device-width : 414px) 
+    	and (max-device-width : 736px) 
+    	and (orientation : portrait) 
+    	and (-webkit-min-device-pixel-ratio : 3) 
+	{
+
+		.modal-body {
+			height: 400px;
+		}
+		
+		
+
+	}
+	
+		/* iPhone 6 Plus Landscape */
+		@media only screen 
+	    	and (min-device-width : 414px) 
+	    	and (max-device-width : 736px) 
+	    	and (orientation : landscape) 
+	    	and (-webkit-min-device-pixel-ratio : 3) 
+		{ 
+	
+			.modal-body {
+				height: 200px;
+			}
+			
+			div.container-apps img {
+			
+				width: 15%;
+				border-radius: 20%;
+			}
+			
+	
+		}
+	
+
+
+@media only screen and (min-width: 900px) and (max-width: 1920px) {
+
+.carousel-control.left {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	height: 93%;
+}
+.carousel-control.right {
+  right: 0;
+  left: auto;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+	height: 93%;
+}
+
+.container-apps {
+	padding: 10px;
+	margin-right: 25%;
+	margin-top: 15px;
+	margin-left: 25%;
+}
+
+}
