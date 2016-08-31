@@ -20,13 +20,11 @@
 <form id="form" onsubmit="return false;">
     <input type="text" id="userInput" />
     <input type="submit" onclick="othername();" />
-    <input readonly="" id="embed-code">
-    <p>copy+paste this code into the field below.</p>
     <p id="demo"></p>
 </form>
 
 <div class="combo-box repo-url github">
-                <input class="required" name="repo" autocomplete="off" placeholder="paste saved git" type="text" value="">
+                <input class="required" name="repo" autocomplete="off" placeholder="paste your app link here." type="text" value="">
                 <span class="msg"></span>
                 
                  <span class="ui-select"></span> 
@@ -49,6 +47,6 @@ function getID() {
   var id = document.getElementById("userInput").value;
   document.getElementById("demo").innerHTML="Your App ID has been modified!";
 }
-
-document.getElementById("embed-code").innerHTML="Hello World!"
 </script>
+
+<a href="https://github.com/new">Get the App Key.</a>
